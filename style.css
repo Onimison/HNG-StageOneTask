@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 1rem 0;
+}
+
+section {
+  margin-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#profile {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin-inline: auto;
+}
+
+img {
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.date p {
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+#track {
+    font-weight: 600;
+}
+

@@ -1,0 +1,53 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNG Profile</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+        <div id="profile" class="overflow-hidden rounded-full w-40 h-40">
+            <img
+              src="assets/IMG_6128.jpeg"
+              class="w-full"
+              alt="Bashir Oinimisi in still photo"
+              data-testid="slackDisplayImage"
+            ></img>
+          </div>
+          <h1 data-testid="slackUserName" >
+            Onimison
+          </h1>
+    </header>
+
+    <main>
+        
+        <section>
+          <div class="date">
+            <h4 class="text-sm">Day and time (UTC):</h4>
+            <p id="day" data-testid="currentDayOfTheWeek">
+              Day
+            </p>
+            <p id="time" data-testid="currentUTCTime">
+              UTC Time
+            </p>
+          </div>
+          <p data-testid="myTrack" id="track">Track: Frontend</p>
+        </section>
+        <section class="flex flex-col items-center py-2">
+         <p> <a
+            href="https://github.com/Onimison/HNG-StageOneTask"
+            target="_blank"
+            data-testid="githubURL"
+          >
+            GitHub URL
+          </a></p>
+        </section>
+      </main>
+    <footer></footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
